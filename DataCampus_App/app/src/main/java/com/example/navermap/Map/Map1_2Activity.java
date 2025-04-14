@@ -218,8 +218,8 @@ public class Map1_2Activity extends AppCompatActivity implements OnMapReadyCallb
 
 
                     // API 키 설정
-                    connection.setRequestProperty("X-NCP-APIGW-API-KEY-ID", "2pijo0g7vf");
-                    connection.setRequestProperty("X-NCP-APIGW-API-KEY", "exP4SoaTeesL8o2e7xDtUEst91sAdi4KZlJxxKOu");
+                    connection.setRequestProperty("X-NCP-APIGW-API-KEY-ID", "*");
+                    connection.setRequestProperty("X-NCP-APIGW-API-KEY", "*");
 
                     // 응답 코드 확인
                     int responseCode = connection.getResponseCode();
